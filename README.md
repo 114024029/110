@@ -50,11 +50,12 @@ body{
 }
 
 .profile img{
-    width:120px;
-    height:120px;
+    width:130px;
+    height:130px;
     border-radius:50%;
     border:5px solid #d6cfae;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    box-shadow:0 0 25px rgba(214,207,174,0.9);
+    object-fit:cover;
     transition:0.4s;
 }
 
@@ -112,7 +113,7 @@ ul{
     }
 }
 
-/* RWD */
+/* 手機版 */
 @media(max-width:768px){
     .container{
         width:90%;
@@ -126,15 +127,18 @@ ul{
 
 <div class="container">
 
+<!-- 標題 -->
 <div class="header">
 <div class="title">個人履歷</div>
 <div class="name-box">張凱琪 Ivanka</div>
 </div>
 
+<!-- 照片（已放入） -->
 <div class="profile">
-<img src="unnamed.jpg">
+<img src="unnamed.jpg" alt="張凱琪照片">
 </div>
 
+<!-- 聯絡 -->
 <div class="section">
 <h2>聯絡資訊</h2>
 <p>📱 0905732605</p>
@@ -142,6 +146,7 @@ ul{
 <p>📷 ivanka110184</p>
 </div>
 
+<!-- 能力 -->
 <div class="section">
 <h2>個人能力</h2>
 <p>影片剪輯｜創作｜典禮主持｜手作｜口齒伶俐｜繪畫｜表達清晰｜設計</p>
@@ -153,6 +158,7 @@ ul{
 <p>朗讀 <span class="star">★★★★★</span></p>
 </div>
 
+<!-- 特質 -->
 <div class="section">
 <h2>個人特質</h2>
 <p>
@@ -162,6 +168,7 @@ ul{
 </p>
 </div>
 
+<!-- 競賽 -->
 <div class="section">
 <h2>競賽經歷</h2>
 <ul>
@@ -170,6 +177,7 @@ ul{
 </ul>
 </div>
 
+<!-- 活動 -->
 <div class="section">
 <h2>活動經歷</h2>
 <ul>
@@ -181,6 +189,7 @@ ul{
 </ul>
 </div>
 
+<!-- 自主 -->
 <div class="section">
 <h2>自主學習</h2>
 <ul>
@@ -189,6 +198,7 @@ ul{
 </ul>
 </div>
 
+<!-- 服務 -->
 <div class="section">
 <h2>服務學習</h2>
 <ul>
@@ -196,6 +206,7 @@ ul{
 </ul>
 </div>
 
+<!-- 幹部 -->
 <div class="section">
 <h2>幹部經歷</h2>
 <ul>
@@ -205,11 +216,13 @@ ul{
 </ul>
 </div>
 
+<!-- 證照 -->
 <div class="section">
 <h2>專業證照</h2>
 <p>心肺復甦術暨自動體外電擊器合格證書</p>
 </div>
 
+<!-- 就學 -->
 <div class="section">
 <h2>就學經歷</h2>
 <p>高中：國立竹東高級中學</p>
